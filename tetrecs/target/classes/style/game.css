@@ -1,0 +1,301 @@
+.gamepane {
+    -fx-background-color: black;
+}
+
+.intro {
+    -fx-background-color: black;
+}
+
+.menu-background {
+    -fx-background-image: url("../images/smoke.jpg");
+    -fx-background-size: cover;
+}
+
+.challenge-background {
+    -fx-background-image: url("../images/2.jpg");
+    -fx-background-size: cover;
+}
+
+.menu {
+    -fx-padding: 10;
+}
+
+.menuItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.menuItem:hover {
+    -fx-fill: yellow;
+}
+
+.menuItem.selected {
+    -fx-fill: yellow;
+}
+
+.bigtitle {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 64px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.heading {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.heading-colored {
+    -fx-fill: orange;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+.circle1 {
+    -fx-fill: #1f93ff00;
+    -fx-radius: 48.0;
+    -fx-stroke: #1F8AC0;
+    -fx-stroke-type: INSIDE;
+    -fx-stroke-width: 10.0;
+    -fx-stroke-dash-array: 30;
+}
+.circle2 {
+    -fx-fill: #1f93ff00;
+    -fx-radius: 91.0;
+    -fx-stroke: red;
+    -fx-stroke-type: INSIDE;
+    -fx-stroke-width: 8.0;
+    -fx-stroke-dash-array: 40;
+}
+.circle3 {
+    -fx-fill: #1f93ff00;
+    -fx-radius: 48.0;
+    -fx-stroke: purple;
+    -fx-stroke-type: INSIDE;
+    -fx-stroke-width: 8.0;
+    -fx-stroke-dash-array: 60;
+}
+
+.score {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.level {
+    -fx-fill: #ff6600;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.hiscore {
+    -fx-fill: orange;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 24px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.lives {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow(gaussian, black, 1, 1.0, 1, 1);
+}
+
+.scorelist {
+    -fx-font-size: 25px;
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+}
+
+.scoreitem {
+    -fx-font-size: 20px;
+    -fx-font-family: 'Orbitron';
+}
+
+.scorer {
+
+}
+
+.myscore {
+    -fx-font-weight: 700;
+}
+
+.deadscore {
+    -fx-strikethrough: true;
+}
+
+.points {
+}
+
+.channelList {
+
+}
+
+.channelItem {
+    -fx-fill: white;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+
+.mychannel {
+    -fx-fill: yellow;
+    -fx-font-family: 'Orbitron';
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-border-color: black;
+    -fx-stroke: black;
+}
+.channelItem.selected {
+    -fx-fill: yellow;
+}
+
+.leaderboard {
+    -fx-font-size: 16px;
+}
+
+.gameBox {
+    -fx-padding: 10;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-border-color: white;
+    -fx-border-width: 1;
+}
+
+.scroller {
+    -fx-background-color: transparent;
+}
+
+.scroller .viewport {
+    -fx-background-color: transparent;
+}
+
+.messages {
+    -fx-background-color: transparent;
+    -fx-font-size: 12px;
+    -fx-font-family: 'Orbitron';
+}
+
+.user {
+    -fx-background-color: transparent;
+    -fx-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-family: 'Orbitron';
+}
+.nick {
+    -fx-background-color: transparent;
+    -fx-fill: lightblue;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Orbitron';
+}
+
+.messages Text {
+    -fx-fill: white;
+}
+
+TextField {
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+}
+
+.playerBox {
+    -fx-font-size: 14px;
+    -fx-font-family: 'Orbitron';
+}
+
+.playerBox Text {
+    -fx-fill: white;
+}
+
+.myname {
+    -fx-font-weight: 700;
+}
+
+.instructions {
+    -fx-font-size: 10px;
+    -fx-font-family: 'Orbitron';
+    -fx-fill: white;
+}
+.startBtn {
+    -fx-display-caret: inline-block;
+    -fx-font-size: 15px;
+    -fx-cursor: pointer;
+    -fx-text-align: center;
+    -fx-background-color: #4CAF50;
+    -fx-border-radius: 7px;
+    -fx-font-family: 'Orbitron';
+}
+
+.startBtn:hover {-fx-background-color: #3e8e41}
+
+.startBtn:pressed {
+    -fx-background-color: #3e8e41;
+    -fx-translate-y: 4px;
+}
+
+.leaveBtn {
+    -fx-display-caret: inline-block;
+    -fx-font-size: 15px;
+    -fx-cursor: pointer;
+    -fx-text-align: center;
+    -fx-background-color: #dc6753;
+    -fx-border-radius: 7px;
+    -fx-font-family: 'Orbitron';
+}
+
+.leaveBtn:hover {-fx-background-color: #ff5a53}
+
+.leaveBtn:pressed {
+    -fx-background-color: #ff5a53;
+    -fx-translate-y: 4px;
+}
