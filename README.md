@@ -1,4 +1,9 @@
 # Second semester UI coursework for the module COMP1206 at University of Southampton
+
+### Game Preview
+![](instructions.png)
+![](page.png)
+
 ## Game logic
 The first step to implementing the game is to implement the basic game logic. This includes:
 
