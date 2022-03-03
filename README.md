@@ -1,6 +1,11 @@
 # Second semester UI coursework for the module COMP1206 at University of Southampton
 
-### Game Preview
+## Coursework Evaluation:
+Earned full score 80/80.
+
+Project weight: 40% of the final grade 
+
+## Game Preview
 ![](instructions.png)
 ![](page.png)
 
